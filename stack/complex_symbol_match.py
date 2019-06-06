@@ -26,7 +26,7 @@ def parChecker(symbolString):
             else: # 如果栈不为空
                 top = s.pop() # 弹出顶部项
                 if not matches(top,symbol): # 比较顶部项与当前的symbol，如果不匹配，返回false
-                       balanced = False
+                    balanced = False
         index = index + 1
     if balanced and s.isEmpty():
         return True
